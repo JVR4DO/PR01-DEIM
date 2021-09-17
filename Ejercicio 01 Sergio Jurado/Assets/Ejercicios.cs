@@ -7,18 +7,16 @@ public class Ejercicios : MonoBehaviour
     // Start is called before the first frame update
 
 
-  public int myInt = 5;
-  public float myFloat = 5.3f;
-  public string myString = "Hola Guapos";
-  public bool myBool = true;
-            
+ 
+  string myString = "Hola Guapo";
+  string myString2 = "¿Qué dia es hoy? Es dia";
+  int myInt = 17;
+
+
     void Start()
     {
-
-        print(myInt);
-        print(myFloat);
-        print(myString);
-        print(myBool);
+        print(myString + myString2 + " " + myInt);
+    
 
 
 
