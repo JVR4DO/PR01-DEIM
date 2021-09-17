@@ -9,24 +9,25 @@ public class Ejercicios : MonoBehaviour
 
 
 
-
-    int n = 10;
+    int aleatorio;
+    int n;
 
     void Start()
     {
+        for(int n = 0; n < 10; n++) 
+        {
+            aleatorio = Random.Range(0, 10);
 
-        if (n == 0)
+        }
+        while (aleatorio != 5)
         {
-            Debug.Log("n vale 0");
+            aleatorio = Random.Range(0, 10);
+            print("El resultado es :" + aleatorio);
+            
         }
-        else if (n <= 10)
-        {
-            Debug.Log("n es igual o menor que 10");
-        }
-        else
-                {
-            Debug.Log("n vale mas de 10");
-        }
+
+
+
 
 
     }
