@@ -7,19 +7,26 @@ public class Ejercicios : MonoBehaviour
     // Start is called before the first frame update
 
 
- 
- 
-  
 
+
+
+    int n = 10;
 
     void Start()
     {
 
-        for (int n = 0; n <= 10; n++)
+        if (n == 0)
         {
-            print(n);
+            Debug.Log("n vale 0");
         }
-
+        else if (n <= 10)
+        {
+            Debug.Log("n es igual o menor que 10");
+        }
+        else
+                {
+            Debug.Log("n vale mas de 10");
+        }
 
 
     }
