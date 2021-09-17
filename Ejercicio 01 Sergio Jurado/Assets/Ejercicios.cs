@@ -8,14 +8,13 @@ public class Ejercicios : MonoBehaviour
 
 
  
-  string myString = "Hola Guapo";
-  string myString2 = "¿Qué dia es hoy? Es dia";
-  int myInt = 17;
+ 
+  public int myInt2 = 2;
 
 
     void Start()
     {
-        print(myString + myString2 + " " + myInt);
+        
     
 
 
@@ -25,6 +24,12 @@ public class Ejercicios : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        while (myInt2 < 10)
+        {
+            myInt2++;
+            print(myInt2);
+        }
         
+
     }
 }
