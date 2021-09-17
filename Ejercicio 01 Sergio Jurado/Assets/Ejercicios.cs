@@ -9,13 +9,16 @@ public class Ejercicios : MonoBehaviour
 
  
  
-  public int myInt2 = 2;
+  
 
 
     void Start()
     {
-        
-    
+
+        for (int n = 0; n <= 10; n++)
+        {
+            print(n);
+        }
 
 
 
@@ -24,11 +27,7 @@ public class Ejercicios : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        while (myInt2 < 10)
-        {
-            myInt2++;
-            print(myInt2);
-        }
+        
         
 
     }
