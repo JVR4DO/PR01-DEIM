@@ -8,24 +8,12 @@ public class Ejercicios : MonoBehaviour
 
 
 
-
-    int aleatorio;
-    int n;
-
+    
+    public string usuario;
     void Start()
     {
-        for(int n = 0; n < 10; n++) 
-        {
-            aleatorio = Random.Range(0, 10);
 
-        }
-        while (aleatorio != 5)
-        {
-            aleatorio = Random.Range(0, 10);
-            print("El resultado es :" + aleatorio);
-            
-        }
-
+        Saludo(usuario);
 
 
 
@@ -35,8 +23,18 @@ public class Ejercicios : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
-        
+
+
 
     }
+    void Saludo(string nombre)
+    {
+        print("Hola " + nombre);
+
+    }
+
+
+
+
+
 }
